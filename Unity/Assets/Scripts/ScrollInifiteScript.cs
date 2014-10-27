@@ -2,7 +2,7 @@
 using System.Linq;
 using UnityEngine;
 
-public class ScrollInfiniteScript : MonoBehaviour {
+public class ScrollInifiteScript : MonoBehaviour {
 	
 	
 	

@@ -1,8 +1,10 @@
 fileFormatVersion: 2
-guid: 299ca69b2207ed74c9174885046a2fd0
+guid: cdb0c2c864c7dfd46b8bac5627cb16ed
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - jumpSound: {fileID: 8300000, guid: 3df6161cb3ec7b448afd3e4d71f5f427, type: 3}
+  - deadSound: {fileID: 8300000, guid: 46750577475816e42af9f83177a78ebf, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

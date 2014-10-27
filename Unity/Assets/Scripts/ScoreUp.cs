@@ -4,13 +4,18 @@ using UnityEngine.UI;
 
 public class ScoreUp : MonoBehaviour {
 
-	private Text texto;
+	private Text Texto;
+	private Text TextoFinal;
+	private Text menu;
 
 	void Start(){
-		//texto = GameObject.Find ("TextoNivel").GetComponent
+		Texto = GameObject.Find ("TextoNivel").GetComponent<Text>();
+		TextoFinal = GameObject.Find ("TextoFinal").GetComponent<Text> ();
 	}
 	void OnTriggerEnter2D(Collider2D col){
-		Debug.Log (GameControl.score);
+		//Debug.Log (GameControl.score);
 		GameControl.score = GameControl.score + 1;
+		Texto.text = "Level" + GameControl.score.ToString ();
+		TextoFinal.text = Texto.text;
 	}
 }
